@@ -12,4 +12,4 @@ for submission in subreddit.hot(limit=5):
     print("Score: ", submission.score)
     print("---------------------------------\n")
 
-print("Working So Far")
+print("Working So ...")
