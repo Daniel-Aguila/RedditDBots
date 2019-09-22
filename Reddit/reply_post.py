@@ -31,7 +31,7 @@ for submission in subreddit.hot(limit=5):
         if re.search("i love python", submission.title, re.IGNORECASE):
             #write the reply
             #reply() is a function that adds a comment to the current submission
-            submission.reply("Testing")
+            submission.reply("NO, YOU MUST LOVE C++")
             print("Bot replying to : ", submission.title)
             posts_replied_to.append(submission.id)
 
