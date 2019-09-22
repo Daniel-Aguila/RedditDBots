@@ -12,4 +12,4 @@ for submission in subreddit.hot(limit=5):
     print("Score: ", submission.score)
     print("---------------------------------\n")
 
-print("One last time")
+print("One last times")
