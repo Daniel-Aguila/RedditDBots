@@ -17,7 +17,7 @@ else:
 
     #The 'with' keyword, opens the file, closes it, and handle any errors
     #so no need for try-catch blocks
-    with open("/Users/danielaguila/Desktop/PyCharm/RedditDLeast/Reddit/post_replied_to.txt", "r") as f:
+    with open("post_replied_to.txt", "r") as f:
         posts_replied_to = f.read()
         #separates the posts by new line
         posts_replied_to = posts_replied_to.split("\n")
@@ -36,6 +36,6 @@ for submission in subreddit.hot(limit=5):
             posts_replied_to.append(submission.id)
 
 #Now we write to remember the id to our list
-with open("/Users/danielaguila/Desktop/PyCharm/RedditDLeast/Reddit/post_replied_to.txt", "w") as f:
+with open("post_replied_to.txt", "w") as f:
     for post_id in posts_replied_to:
         f.write(post_id + "\n")
