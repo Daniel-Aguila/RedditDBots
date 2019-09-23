@@ -27,6 +27,8 @@ Program runs manually, will soon start the process to try to make it Automated
 
 In the VM praw.ini has not being linked, and when the program starts, it crashes
 
+# Picture of Program running
+
 ![](https://github.com/Daniel-Aguila/RedditDBots/blob/master/Screen%20Shot%202019-09-23%20at%201.14.31%20AM.png?raw=true)
 
 
