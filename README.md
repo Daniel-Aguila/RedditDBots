@@ -10,7 +10,9 @@ We used 'praw' to scrape Reddit subreddits. While working on this project, I got
 ## What I learned from this
 
 * I got introduced to web scraping and how to incorporate an API (Reddit's) into my python program.
-* I got familiar with git on the terminal, instead of only using "push/pull" from my IDE
+* I got familiar with git on the terminal, instead of only using "push/pull" from my IDE.
+* How to store information(users id) on a txt, and check the txt to make sure the bot does respond multiple times
+  unless you want it.
 
 ## Languages Used
 
