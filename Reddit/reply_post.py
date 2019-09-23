@@ -8,7 +8,6 @@ import os
 
 # Create the Reddit instance
 reddit = praw.Reddit('bot1')
-print(reddit.user.me())
 #Assume file doesn't exist
 if not os.path.isfile("posts_reply_to.txt"):
     posts_replied_to =[]
